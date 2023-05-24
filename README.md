@@ -1,10 +1,14 @@
-This code implements a Convolutional Neural Network (CNN) model using TensorFlow to detect liver disease. The CNN architecture consists of several layers, including convolutional layers with activation functions, max pooling layers, and dense layers. The model is compiled with the Adam optimizer and the binary cross-entropy loss function.
+The analysis aims to detect and classify liver diseases using medical images of patients. The project utilizes the architecture of convolutional neural networks, which is particularly effective in image analysis.
 
-The code also includes sections for data preprocessing, where you can prepare your training and test data by resizing, normalizing, and applying other necessary transformations. The model is trained using the fit function with the specified number of epochs and validation data. After training, the model is evaluated on the test data to calculate the test accuracy.
+Upon opening the file "liver-disease-analysis.ipynb," you will find a series of code cells and explanatory text. The notebook begins with the importation of necessary libraries, followed by data preparation.
 
-Finally, the trained model is saved as an HDF5 file for future use. This code serves as a starting point for building a liver disease detection system based on CNNs, allowing you to train and evaluate the model and save it for later inference on new data.
+Next, the dataset is preprocessed and divided into training and testing sets. The project utilizes the Keras library, which is a high-level interface for building and training neural networks.
 
+The architecture of the convolutional neural network is defined and compiled. The model is trained using the training data and then evaluated using the testing data to assess its accuracy in detecting liver diseases.
 
+The project also includes visualizations of the results, such as accuracy and loss graphs during training, as well as a confusion matrix to evaluate the model's performance across different classes of liver diseases.
+
+In addition to the code, the notebook also contains detailed explanations of the analysis process, the logic behind each step, and the parameters used.
 
 Attention! 
 
