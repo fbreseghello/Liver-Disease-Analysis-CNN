@@ -1,14 +1,14 @@
-# 🏥 Liver Disease Analysis - Machine Learning Project
+# Liver Disease Analysis - Machine Learning Project
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto utiliza técnicas avançadas de Machine Learning para análise e predição de doenças hepáticas (Hepatite C, Fibrose e Cirrose) a partir de dados clínicos de pacientes. O objetivo é criar um modelo preditivo capaz de realizar detecção precoce dessas condições.
 
-### 🎯 Características Principais
+### Características Principais
 
 - **Análise Exploratória de Dados (EDA)** completa e detalhada
 - **Balanceamento de dados** usando técnica SMOTE
@@ -17,7 +17,7 @@ Este projeto utiliza técnicas avançadas de Machine Learning para análise e pr
 - **Interpretabilidade** do modelo usando SHAP
 - **Visualizações** interativas e informativas
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Liver-Disease-Analysis-CNN/
@@ -40,7 +40,7 @@ Liver-Disease-Analysis-CNN/
 
 ```
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Pré-requisitos
 
@@ -75,7 +75,7 @@ Abra o notebook principal:
 jupyter notebook notebooks/liver-disease-analysis.ipynb
 ```
 
-## 📊 Dataset
+## Dataset
 
 O dataset utilizado contém informações clínicas de 615 pacientes, incluindo:
 
@@ -86,7 +86,7 @@ O dataset utilizado contém informações clínicas de 615 pacientes, incluindo:
 
 **Fonte**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/HCV+data)
 
-## 🧪 Metodologia
+## Metodologia
 
 1. **Análise Exploratória (EDA)**
    - Análise univariada, bivariada e multivariada
@@ -109,38 +109,17 @@ O dataset utilizado contém informações clínicas de 615 pacientes, incluindo:
    - Métricas de desempenho no conjunto de teste
    - Análise de interpretabilidade com SHAP
 
-## 📈 Resultados
+## Resultados
 
 Os resultados detalhados da análise e métricas de performance estão disponíveis no notebook principal.
 
-## ⚠️ Aviso Importante
+## Aviso Importante
 
 **ATENÇÃO**: Este é um projeto educacional não validado para uso clínico. Não tome decisões médicas baseadas nesses resultados. Sempre consulte um médico especialista.
 
-## 🤝 Contribuindo
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fazer um Fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abrir um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 👤 Autor
-
-**Felipe Breseghello**
-- GitHub: [@fbreseghello](https://github.com/fbreseghello)
-
-## 📚 Referências
+## Referências
 
 - Centers for Disease Control and Prevention (CDC) - [Viral Hepatitis](https://www.cdc.gov/hepatitis/hcv/index.htm)
 - UCI Machine Learning Repository - [HCV Dataset](https://archive.ics.uci.edu/ml/datasets/HCV+data)
 
----
-
-Desenvolvido com ❤️ para fins educacionais e de pesquisa
